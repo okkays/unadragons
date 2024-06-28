@@ -1,6 +1,6 @@
 Adds dragons to your unanet.
 
-![dragons_install.gif](Walkthrough of how to install)
+![dragons_install](https://github.com/okkays/unadragons/assets/15126660/6a4e68f4-4cdd-4e76-a673-115f0a30bc2f)
 
 - Clone this repo somewhere
 - Open chrome://extensions/
