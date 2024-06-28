@@ -1,0 +1,30 @@
+{
+  "name": "Unadragons",
+  "description": "Adds dragons to your unanet",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "images/dragon_0_16.png",
+    "32": "images/dragon_0_32.png",
+    "48": "images/dragon_0_48.png",
+    "128": "images/dragon_0_128.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/dragons.js"],
+      "matches": [
+        "https://*.unanet.biz/*"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["images/*"],
+      "matches": ["*://*.unanet.biz/*"]
+    }
+  ],
+  "action": {
+    "default_popup": "dragons.html",
+    "default_icon": "images/dragon_0.png"
+  }
+}
